@@ -1,16 +1,141 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inception - Movie Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
 
+    header {
+      background-color: #1b1b1b;
+      text-align: center;
+      padding: 2em 0;
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #00bfff;
+    }
+
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    nav a {
+      color: #00bfff;
+      text-decoration: none;
+      margin: 0 1.5em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    summary {
+      display: block;
+      background-color: #1c1c1c;
+      padding: 1.5em;
+      border-left: 5px solid #00bfff;
+      margin-bottom: 2em;
+    }
+
+    section {
+      background-color: #1c1c1c;
+      padding: 1.5em;
+      margin-bottom: 2em;
+      border-radius: 8px;
+    }
+
+    section h2 {
+      color: #00bfff;
+    }
+
+    aside {
+      background-color: #222;
+      padding: 1.5em;
+      border: 1px solid #00bfff;
+      border-radius: 8px;
+      margin-bottom: 2em;
+    }
+
+    footer {
+      background-color: #1b1b1b;
+      text-align: center;
+      padding: 1em;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Header -->
+  <header>
+    Inception
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a id="nav-actor" href="#actor">Actors</a>
+    <a id="nav-quote" href="#quote">Quotes</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Summary -->
+    <summary>
+      *Inception* (2010) is a science-fiction thriller directed by Christopher Nolan. 
+      It follows Dom Cobb, a skilled thief who steals secrets from deep within the subconscious during the dream state. 
+      When offered a chance to have his criminal record erased, Cobb and his team must perform the impossible — **inception**: planting an idea into someone’s mind.
+    </summary>
+
+    <!-- Actors Section -->
+    <section id="actor">
+      <h2>Actors</h2>
+      <ul>
+        <li><strong>Leonardo DiCaprio</strong> as Dom Cobb</li>
+        <li><strong>Joseph Gordon-Levitt</strong> as Arthur</li>
+        <li><strong>Elliot Page</strong> as Ariadne</li>
+        <li><strong>Tom Hardy</strong> as Eames</li>
+        <li><strong>Ken Watanabe</strong> as Saito</li>
+      </ul>
+    </section>
+
+    <!-- Quotes Section -->
+    <section id="quote">
+      <h2>Favorite Quote</h2>
+      <blockquote>
+        "You mustn’t be afraid to dream a little bigger, darling."
+      </blockquote>
+      <p>— Eames, <em>Inception</em></p>
+    </section>
+
+    <!-- Aside -->
+    <aside>
+      <p><strong>IMDb Rating:</strong> 8.8/10</p>
+      <p><strong>Release Date:</strong> July 16, 2010</p>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    Produced by: <strong>Emma Thomas</strong>
+  </footer>
 
 </body>
-
 </html>
